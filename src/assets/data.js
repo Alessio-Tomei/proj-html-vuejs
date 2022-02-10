@@ -156,4 +156,58 @@ const mainSliderArray = [
     },
 ];
 
-export {navigationItems, langOptions, mainPointsArray, mainSliderArray};
+const plansArray = [
+    {
+        img:'stock-full-hd-03-443x600',
+        price: '$40.00',
+        title: 'Learning to Write as a Professional Author',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsum recusandae inventore earum deserunt corporis mollitia suscipit quidem sunt hic. Earum illum repellat accusantium commodi quidem deleniti adipisci veniam id?'
+    },
+    {
+        img:'stock-full-hd-04-443x600',
+        price: 'Free',
+        title: 'Custumer-centric info-Tech Strategies',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsum recusandae inventore earum deserunt corporis mollitia suscipit quidem sunt hic. Earum illum repellat accusantium commodi quidem deleniti adipisci veniam id?'
+    },
+    {
+        img:'stock-full-hd-06-443x600',
+        price: '$19.00',
+        title: 'Open Programming Courses for Everyone: Python',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsum recusandae inventore earum deserunt corporis mollitia suscipit quidem sunt hic. Earum illum repellat accusantium commodi quidem deleniti adipisci veniam id?'
+    },
+    {
+        img:'stock-full-hd-03-443x600',
+        price: '$26.00',
+        title: 'Academic Listening and Note-taking',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsum recusandae inventore earum deserunt corporis mollitia suscipit quidem sunt hic. Earum illum repellat accusantium commodi quidem deleniti adipisci veniam id?'
+    },
+    {
+        img:'stock-full-hd-03-443x600',
+        price: '$40.00',
+        title: 'Learning to Write as a Professional Author',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsum recusandae inventore earum deserunt corporis mollitia suscipit quidem sunt hic. Earum illum repellat accusantium commodi quidem deleniti adipisci veniam id?'
+    },
+    {
+        img:'stock-full-hd-04-443x600',
+        price: 'Free',
+        title: 'Custumer-centric info-Tech Strategies',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsum recusandae inventore earum deserunt corporis mollitia suscipit quidem sunt hic. Earum illum repellat accusantium commodi quidem deleniti adipisci veniam id?'
+    },
+    {
+        img:'stock-full-hd-06-443x600',
+        price: '$19.00',
+        title: 'Open Programming Courses for Everyone: Python',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsum recusandae inventore earum deserunt corporis mollitia suscipit quidem sunt hic. Earum illum repellat accusantium commodi quidem deleniti adipisci veniam id?'
+    },
+    {
+        img:'stock-full-hd-03-443x600',
+        price: '$26.00',
+        title: 'Academic Listening and Note-taking',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsum recusandae inventore earum deserunt corporis mollitia suscipit quidem sunt hic. Earum illum repellat accusantium commodi quidem deleniti adipisci veniam id?'
+    },
+];
+
+export {
+    navigationItems, langOptions, mainPointsArray, 
+    mainSliderArray, plansArray
+};

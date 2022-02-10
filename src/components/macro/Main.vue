@@ -3,6 +3,7 @@
     <Jumbotron/>
     <MainPoints/>
     <MainPointsSlider/>
+    <TariffPlans/>
   </main>
 </template>
 
@@ -10,12 +11,14 @@
 import Jumbotron from '../sections/Jumbotron.vue';
 import MainPoints from '../sections/MainPoints.vue';
 import MainPointsSlider from '../sections/MainPointsSlider.vue';
+import TariffPlans from '../sections/TariffPlans.vue';
 export default {
   name: 'Main',
   components: { 
     Jumbotron, 
     MainPoints,
     MainPointsSlider,
+    TariffPlans,
   }
 }
 </script>
