@@ -63,6 +63,13 @@ $padding-jumbotron: 80px;
         & > div {
             padding: 10px;
             cursor: pointer;
+            &:hover {
+                &:hover {
+                    box-shadow: inset 0px 0px 5px 5px rgba($color: $theme-logo-color, $alpha: .25);
+                    background-color: rgba($color: $theme-logo-color, $alpha: .5);
+                    color: white;
+                }
+            }
         }
     }
     .ms_container{
@@ -84,9 +91,8 @@ $padding-jumbotron: 80px;
 .ms_container-small {
     position: relative;
     top: 80px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
+    width: $container-w-small;
+    margin: 0 auto;
     height: 750px;
     display: flex;
     .ms_container-img {
@@ -118,18 +124,6 @@ $padding-jumbotron: 80px;
             color: $color-belittle;
             max-width: 400px;
             font-weight: 500;
-        }
-        button {
-            font-weight: 500;
-            border: none;
-            width: max-content;
-            padding: 15px 40px;
-            border-radius: 5px;
-            background-color: $color-exalted;
-            color: white;
-            &:hover {
-                background-color: $theme-logo-color;
-            }
         }
     }
 }

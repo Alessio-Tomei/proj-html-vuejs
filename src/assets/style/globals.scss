@@ -21,3 +21,22 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+button {
+    font-weight: 500;
+    border: none;
+    width: max-content;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: $color-exalted;
+    color: white;
+    &.ms_light-button {
+        background-color: white;
+        color: $color-exalted;
+        border: 1px solid #bcbcbc;
+    }
+    &:hover {
+        background-color: $theme-logo-color;
+        color: white;
+    }
+}

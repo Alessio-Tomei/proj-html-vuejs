@@ -83,6 +83,9 @@ export default {
                     .cs_chevron.rotate {
                         transform: rotate(180deg);
                     }
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
                 .cs_dropdown-menu {
                     z-index: 1;

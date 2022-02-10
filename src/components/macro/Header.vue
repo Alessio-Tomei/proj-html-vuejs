@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="container-fluids">
+    <div class="container-fluid">
       <div class="row row-cols-3 align-items-center">
         <div class="col">
           <div class="ms_logo-container">
