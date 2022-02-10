@@ -95,6 +95,7 @@ $padding-jumbotron: 80px;
     margin: 0 auto;
     height: 750px;
     display: flex;
+    padding: 0px 20px;
     .ms_container-img {
         width: 40%;
         img {

@@ -46,11 +46,7 @@ export default {
             this.selectOpen= false;
         }
     },
-    computed: {
-        setFlag() {
-            return this.options[this.currentLang].img;
-        }
-    }
+    
 }
 </script>
 

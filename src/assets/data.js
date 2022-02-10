@@ -108,4 +108,52 @@ const mainPointsArray = [
     },
 ];
 
-export {navigationItems, langOptions, mainPointsArray};
+const mainSliderArray = [
+    {
+        img: `home-business-service-slide-01-480x298`,
+        title: 'Consultative Training',
+        paragraph: 'Whit a coach addressing multiple issues that are off balance, affecting your business in various uncosidered ways.'
+    },
+    {
+        img: `home-business-service-slide-02-480x298`,
+        title: 'Real Deal Coaching',
+        paragraph: 'Bring an exceptionally powerful opportunity. Being able to accept, to work with that opportunity.'
+    },
+    {
+        img: `home-business-service-slide-03-480x298`,
+        title: 'Advisor Training Program',
+        paragraph: 'Getting high quality, entrepreneur mindset driven online business coaching, is what is needed.'
+    },
+    {
+        img: `home-business-service-slide-02-480x298`,
+        title: 'Real Deal Coaching',
+        paragraph: 'Bring an exceptionally powerful opportunity. Being able to accept, to work with that opportunity.'
+    },
+    {
+        img: `home-business-service-slide-03-480x298`,
+        title: 'Advisor Training Program',
+        paragraph: 'Getting high quality, entrepreneur mindset driven online business coaching, is what is needed.'
+    },
+    {
+        img: `home-business-service-slide-01-480x298`,
+        title: 'Consultative Training',
+        paragraph: 'Whit a coach addressing multiple issues that are off balance, affecting your business in various uncosidered ways.'
+    },
+    {
+        img: `home-business-service-slide-03-480x298`,
+        title: 'Advisor Training Program',
+        paragraph: 'Getting high quality, entrepreneur mindset driven online business coaching, is what is needed.'
+    },
+    {
+        img: `home-business-service-slide-01-480x298`,
+        title: 'Consultative Training',
+        paragraph: 'Whit a coach addressing multiple issues that are off balance, affecting your business in various uncosidered ways.'
+    },
+    {
+        img: `home-business-service-slide-02-480x298`,
+        title: 'Real Deal Coaching',
+        paragraph: 'Bring an exceptionally powerful opportunity. Being able to accept, to work with that opportunity.'
+    },
+];
+
+export {navigationItems, langOptions, mainPointsArray, mainSliderArray};

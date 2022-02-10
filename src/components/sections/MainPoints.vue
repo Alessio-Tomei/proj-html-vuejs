@@ -47,7 +47,7 @@ export default {
 .ms_main-points {
     width: 100%;
     .ms_container {
-        width: 90%;
+        width: $container-w-large;
         margin: 0 auto;
         .ms_container-small {
             width: $container-w-small;
