@@ -5,6 +5,7 @@
     <MainPointsSlider/>
     <TariffPlans/>
     <QuestionsAndAnswers/>
+    <UpcomingEvent/>
   </main>
 </template>
 
@@ -14,6 +15,8 @@ import MainPoints from '../sections/MainPoints.vue';
 import MainPointsSlider from '../sections/MainPointsSlider.vue';
 import QuestionsAndAnswers from '../sections/QuestionsAndAnswers.vue';
 import TariffPlans from '../sections/TariffPlans.vue';
+import UpcomingEvent from '../sections/UpcomingEvent.vue';
+
 export default {
   name: 'Main',
   components: { 
@@ -22,6 +25,7 @@ export default {
     MainPointsSlider,
     TariffPlans,
     QuestionsAndAnswers,
+    UpcomingEvent,
   }
 }
 </script>
