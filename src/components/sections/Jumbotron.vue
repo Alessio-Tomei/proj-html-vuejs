@@ -72,7 +72,7 @@ $padding-jumbotron: 80px;
             }
         }
     }
-    .ms_container{
+    .ms_container {
         width: $container-w-large;
         margin: 0 auto;
     }

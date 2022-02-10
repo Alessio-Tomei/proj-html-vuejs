@@ -4,6 +4,7 @@
     <MainPoints/>
     <MainPointsSlider/>
     <TariffPlans/>
+    <QuestionsAndAnswers/>
   </main>
 </template>
 
@@ -11,6 +12,7 @@
 import Jumbotron from '../sections/Jumbotron.vue';
 import MainPoints from '../sections/MainPoints.vue';
 import MainPointsSlider from '../sections/MainPointsSlider.vue';
+import QuestionsAndAnswers from '../sections/QuestionsAndAnswers.vue';
 import TariffPlans from '../sections/TariffPlans.vue';
 export default {
   name: 'Main',
@@ -19,6 +21,7 @@ export default {
     MainPoints,
     MainPointsSlider,
     TariffPlans,
+    QuestionsAndAnswers,
   }
 }
 </script>
