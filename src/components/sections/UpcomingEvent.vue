@@ -13,13 +13,13 @@
                                         <div class="ms_icon">
                                             <i class="fas fa-map-marker-alt"></i>
                                         </div>
-                                        <p>Texas, US</p>
+                                        <p>{{box.place}}</p>
                                     </div>
-                                    <p class="ms_event-title">StoryTelling Workshop</p>
+                                    <p class="ms_event-title">{{box.title}}</p>
                                 </div>
                                 <div class="ms_calendar">
-                                    <span class="ms_day">22</span>
-                                    <span class="ms_month">NOV</span>
+                                    <span class="ms_day">{{box.day}}</span>
+                                    <span class="ms_month">{{box.month}}</span>
                                     <button>Get ticket</button>
                                 </div>
                             </div>
@@ -35,13 +35,13 @@
 </template>
 
 <script>
-import {mainPointsArray} from '../../assets/data.js';
+import {upcomingEventArray} from '../../assets/data.js';
 
 export default {
     name: 'UpcomingEvent',
     data() {
         return {
-            boxsList: mainPointsArray,
+            boxsList: upcomingEventArray,
         }
     },
 }

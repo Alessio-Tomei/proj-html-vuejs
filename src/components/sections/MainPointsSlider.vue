@@ -123,6 +123,7 @@ export default {
                     }
                     .ms_button-container {
                         width: 100%;
+                        margin-top: auto;
                         button {
                             width: 100%;
                             border: none;

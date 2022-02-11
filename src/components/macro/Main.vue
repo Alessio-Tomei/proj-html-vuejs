@@ -6,6 +6,7 @@
     <TariffPlans/>
     <QuestionsAndAnswers/>
     <UpcomingEvent/>
+    <Review/>
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import Jumbotron from '../sections/Jumbotron.vue';
 import MainPoints from '../sections/MainPoints.vue';
 import MainPointsSlider from '../sections/MainPointsSlider.vue';
 import QuestionsAndAnswers from '../sections/QuestionsAndAnswers.vue';
+import Review from '../sections/Review.vue';
 import TariffPlans from '../sections/TariffPlans.vue';
 import UpcomingEvent from '../sections/UpcomingEvent.vue';
 
@@ -26,6 +28,7 @@ export default {
     TariffPlans,
     QuestionsAndAnswers,
     UpcomingEvent,
+    Review,
   }
 }
 </script>

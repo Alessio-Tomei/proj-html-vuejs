@@ -14,31 +14,13 @@
                         <div class="ms_text-box">
                             <h2>To Thrive In Business Today, You'll Need a Good Plan</h2>
                             <div class="ms_q-a-container">
-                                <div class="ms_q-a-row" @click="setActive(1)" :class="{'ms_active' : active == 1}">
+                                <div class="ms_q-a-row" v-for="(row, index) in rowList" :key="index" @click="setActive(index)" :class="{'ms_active' : active == index}">
                                     <div class="ms_icon">
                                         <i class="fas fa-chevron-circle-down"></i>
                                     </div>
                                     <div class="ms_container-text">
-                                        <p class="ms_question">How can we help?</p>
-                                        <p class="ms_answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci natus enim et dolor doloribus velit, numquam iure reprehenderit quod cum delectus exercitationem, eveniet sunt consequatur quaerat nam ut ipsam repudiandae!</p>
-                                    </div>
-                                </div>
-                               <div class="ms_q-a-row" @click="setActive(2)" :class="{'ms_active' : active == 2}">
-                                    <div class="ms_icon">
-                                        <i class="fas fa-chevron-circle-down"></i>
-                                    </div>
-                                    <div class="ms_container-text">
-                                        <p class="ms_question">How can we help?</p>
-                                        <p class="ms_answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci natus enim et dolor doloribus velit, numquam iure reprehenderit quod cum delectus exercitationem, eveniet sunt consequatur quaerat nam ut ipsam repudiandae!</p>
-                                    </div>
-                                </div>
-                                <div class="ms_q-a-row" @click="setActive(3)" :class="{'ms_active' : active == 3}">
-                                    <div class="ms_icon">
-                                        <i class="fas fa-chevron-circle-down"></i>
-                                    </div>
-                                    <div class="ms_container-text">
-                                        <p class="ms_question">How can we help?</p>
-                                        <p class="ms_answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci natus enim et dolor doloribus velit, numquam iure reprehenderit quod cum delectus exercitationem, eveniet sunt consequatur quaerat nam ut ipsam repudiandae!</p>
+                                        <p class="ms_question">{{row.question}}</p>
+                                        <p class="ms_answer">{{row.answer}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -51,18 +33,23 @@
 </template>
 
 <script>
+import {qaArray} from '../../assets/data.js';
 
 export default {
     name: 'QuestionsAndAnswers',
     data() {
         return {
-            active: 1,
+            active: null,
+            rowList: qaArray,
         }
     },
     methods: {
-        setActive: function(num) {
-            this.active = num;
-            console.log(this.active);
+        setActive: function(index) {
+            if (index == this.active) {
+                this.active = null
+            } else {
+                this.active = index;
+            }
         }
     },
     computed: {
