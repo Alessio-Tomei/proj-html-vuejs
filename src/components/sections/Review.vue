@@ -155,6 +155,7 @@ export default {
                         }
                     }
                     &:nth-child(1) {
+                        transform: scale(.75);
                         .ms_previous-button-overlay {
                             position: absolute;
                             top: 0;
@@ -176,6 +177,7 @@ export default {
                         } 
                     }
                     &:nth-child(3) {
+                        transform: scale(.75);
                         .ms_next-button-overlay {
                             position: absolute;
                             top: 0;
